@@ -1,0 +1,3 @@
+[submodule "extern/dtasm.git"]
+	path = extern/dtasm.git
+	url = https://github.com/siemens/dtasm.git
