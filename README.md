@@ -31,19 +31,19 @@ Generating Tool:
  can_interpolate_inputs: 0
  can_reset_step: 0
 Init returned status: OK
-t;theta1;joint1.velocity;theta2;joint2.velocity
-0;3.14159;0;0.0174533;0
-0.1;3.14074;-0.0170964;0.0157574;-0.0336386
-0.2;3.13817;-0.0342788;0.0108326;-0.064093
-0.3;3.13387;-0.0519586;0.00313258;-0.088812
-0.4;3.12773;-0.0712036;-0.00668981;-0.106453
-0.5;3.11951;-0.0940834;-0.0179282;-0.117355
-0.6;3.10868;-0.124047;-0.0300091;-0.123883
-0.7;3.09429;-0.166369;-0.0427059;-0.130633
+t,theta1,joint1.velocity,theta2,joint2.velocity
+0,3.14159,0,0.0174533,0
+0.1,3.14074,-0.0170964,0.0157574,-0.0336386
+0.2,3.13817,-0.0342788,0.0108326,-0.064093
+0.3,3.13387,-0.0519586,0.00313258,-0.088812
+0.4,3.12773,-0.0712036,-0.00668981,-0.106453
+0.5,3.11951,-0.0940834,-0.0179282,-0.117355
+0.6,3.10868,-0.124047,-0.0300091,-0.123883
+0.7,3.09429,-0.166369,-0.0427059,-0.130633
 ...
 ```
 
-Congrats, you just ran the `dpend_cpp` dtasm module on your ESP32! Results will be exactly the same as if you executed the module on any other dtasm runtime on any platform. If you like you can visualize the simulated double pendulum motion using the provided [Jupyter notebook](extern/dtasm.git/tools/dp_plot/double_pendulum.ipynb). 
+Congrats, you just ran the `dpend_cpp` dtasm module on your ESP32! Results will be exactly the same as if you executed the module on any other dtasm runtime on any platform. If you like you can visualize the simulated double pendulum motion using the provided [Jupyter notebook](extern/dtasm.git/tools/dp_plot/double_pendulum_animation.ipynb). 
 
 ### Trivia
 - _Why the need for a WROVER module, can the demo not run on the simpler and cheaper ESP32-WROOM series?_
